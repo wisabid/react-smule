@@ -1,0 +1,33 @@
+{
+  "name": "react-smule",
+  "version": "1.0.0",
+  "description": "A React component for rendering audio/video from smule link",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && tsc -p ."
+  },
+  "keywords": [
+    "react-smule",
+    "smule",
+    "react",
+    "scraping",
+    "smule scraping",
+    "cheerio",
+    "smule audio",
+    "smule video",
+    "m4a",
+    "mp4"
+  ],
+  "author": "Abid Shamim P.M.",
+  "license": "MIT",
+  "peerDependencies": {
+    "react" : ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "react": "^16.11.0",
+    "typescript": "^3.7.2"
+  }
+}
